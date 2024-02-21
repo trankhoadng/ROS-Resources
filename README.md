@@ -1,8 +1,8 @@
 # ROS Resources
 
 This is a community-compiled list of useful resources for robotics (with a focus on ROS). I make no guarantees on the quality of any of these resources. If you'd like to add something to the list, please submit a PR!
-# Command ROS2
-| ros2 run tf2_tools view_frames |
+## Command ROS2
+| Ros2 run tf2_tools view_frames |
 | ros2 run teleop_twist_keyboard teleop_twist_keyboard |
 
 ## ROS-Oriented
