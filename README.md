@@ -11,6 +11,7 @@ This is a community-compiled list of useful resources for robotics (with a focus
 | docker ps |
 | docker exec -it 2b79bd3b87dc bash |
 | docker run --name container_name -e DISPLAY=host.docker.internal:0.0 -it image_name |
+| ros2 run rviz2 rviz2 -d /root/ros2_ws/robot/rviz/nav2.rviz |
 
 ## ROS-Oriented
 
