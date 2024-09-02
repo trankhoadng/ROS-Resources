@@ -2,7 +2,7 @@
 
 This is a community-compiled list of useful resources for robotics (with a focus on ROS). I make no guarantees on the quality of any of these resources. If you'd like to add something to the list, please submit a PR!
 ## Command ROS2
-| ROS2 | DOCKER |
+| COMMAND | 
 | ---- |
 | colcon build --symlink-install | 
 | source /opt/ros/humble/setup.bash | 
