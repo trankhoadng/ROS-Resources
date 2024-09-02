@@ -4,13 +4,16 @@ This is a community-compiled list of useful resources for robotics (with a focus
 ## Command ROS2
 | ROS2 | DOCKER |
 | ---- |
-| colcon build --symlink-install | docker ps |
-| source /opt/ros/humble/setup.bash | docker exec -it 2b79bd3b87dc bash |
-| ros2 run tf2_tools view_frames | docker run --name container_name -e DISPLAY=host.docker.internal:0.0 -it image_name |
-| ros2 run teleop_twist_keyboard teleop_twist_keyboard | |
-| ros2 run rviz2 rviz2 -d /root/ros2_ws/src/robot/rviz/nav2.rviz | |
-| ros2 launch nav2_bringup navigation_launch.py | |
-| ros2 launch slam_toolbox online_async_launch.py | |
+| colcon build --symlink-install | 
+| source /opt/ros/humble/setup.bash | 
+| ros2 run tf2_tools view_frames | 
+| ros2 run teleop_twist_keyboard teleop_twist_keyboard | 
+| ros2 run rviz2 rviz2 -d /root/ros2_ws/src/robot/rviz/nav2.rviz | 
+| ros2 launch nav2_bringup navigation_launch.py | 
+| ros2 launch slam_toolbox online_async_launch.py | 
+| docker ps |
+| docker exec -it 2b79bd3b87dc bash |
+| docker run --name container_name -e DISPLAY=host.docker.internal:0.0 -it image_name |
 
 ## ROS-Oriented
 
