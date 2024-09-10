@@ -11,6 +11,8 @@ This is a community-compiled list of useful resources for robotics (with a focus
 | ros2 run rviz2 rviz2 -d /root/ros2_ws/src/robot/rviz/nav2.rviz | 
 | ros2 launch nav2_bringup navigation_launch.py | 
 | ros2 launch slam_toolbox online_async_launch.py | 
+| ros2 run controller_manager spawner diff_cont |
+| ros2 run controller_manager spawner joint_broad |
 | docker ps |
 | docker exec -it 2b79bd3b87dc bash |
 | docker run --name container_name -e DISPLAY=host.docker.internal:0.0 -it image_name |
